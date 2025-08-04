@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Spaloon/static/css/main.2b067690.css",
+    "main.js": "/Spaloon/static/js/main.be148728.js",
+    "static/js/453.bd4a5502.chunk.js": "/Spaloon/static/js/453.bd4a5502.chunk.js",
+    "static/media/Gar.png": "/Spaloon/static/media/Gar.f933e08a5851eceff239.png",
+    "static/media/Mangaf.png": "/Spaloon/static/media/Mangaf.9d47299a20ea61e18e59.png",
+    "static/media/Palms.png": "/Spaloon/static/media/Palms.a757d02d689fadd3ac2d.png",
+    "static/media/City.png": "/Spaloon/static/media/City.7197b170260925776655.png",
+    "static/media/Barber.png": "/Spaloon/static/media/Barber.7b50aa0ffbc4aed792b0.png",
+    "static/media/BWbarber.png": "/Spaloon/static/media/BWbarber.c67b933bcf5177427d71.png",
+    "static/media/spaloonlogo.png": "/Spaloon/static/media/spaloonlogo.6a69f68106755b3f67c4.png",
+    "static/media/phone.svg": "/Spaloon/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
+    "static/media/tenoclock.svg": "/Spaloon/static/media/tenoclock.95a7efb0fba22c5508e8070c9c0de5df.svg",
+    "static/media/location.svg": "/Spaloon/static/media/location.66cc1d4db3e767d4c2d37ee3ba11767f.svg",
+    "index.html": "/Spaloon/index.html",
+    "main.2b067690.css.map": "/Spaloon/static/css/main.2b067690.css.map",
+    "main.be148728.js.map": "/Spaloon/static/js/main.be148728.js.map",
+    "453.bd4a5502.chunk.js.map": "/Spaloon/static/js/453.bd4a5502.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b067690.css",
+    "static/js/main.be148728.js"
+  ]
+}
