@@ -18,8 +18,8 @@ const NavBar = () => {
       <NavLink to="BookNow" style={{ color: "white" }}>
         <h1 className="font-bold text-xl">Book Now</h1>
       </NavLink>
-      <NavLink to="ContactUs" style={{ color: "white" }}>
-        <h1 className="font-bold text-xl">Contact Us</h1>
+      <NavLink to="offers" style={{ color: "white" }}>
+        <h1 className="font-bold text-xl">Offers</h1>
       </NavLink>
       <NavLink to="Locations" style={{ color: "white" }}>
         <h1 className="font-bold text-xl">Locations</h1>
