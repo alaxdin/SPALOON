@@ -14,7 +14,7 @@ const Locations = () => {
       {/* -------------------- Location ------------------------------------------- */}
       <div className="w-full h-full flex justify-center  ">
         {/* ---------------------  Kuwait City Location  */}
-        <div className="  w-[100%] h-[100%]  flex justify-center items-center flex-col gap-8">
+        <div className="  w-[100%] h-[100%]  flex justify-center items-center flex-col gap-8 flex-wrap wrap">
           <a
             href="https://maps.app.goo.gl/JmJr8xHE3uDQ11h57"
             target="_blank"

@@ -1,5 +1,5 @@
 import BWbarber from "../assets/SpaloonImages/BWbarber.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Barber from "../assets/SpaloonImages/Barber.png";
 import tenoclock from "../assets/SpaloonImages/tenoclock.svg";
 import phone from "../assets/SpaloonImages/phone.svg";
