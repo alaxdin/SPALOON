@@ -5,25 +5,39 @@ import spaloonlogo from "../assets/SpaloonImages/spaloonlogo.png";
 const NavBar = () => {
   return (
     // ----------------- Style NavBar -----------------
-    <div className="flex gap-10 justify-center items-center bg-gray-600 ">
-      {/* ------------------  image logo in NavBar ------------- */}
-      <NavLink className="flex justify-left object-cover w-36" to="/">
-        <img src={spaloonlogo} />
+    <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between bg-gray-600 p-4 gap-4 sm:gap-6 md:gap-100">
+      {/* Logo */}
+      <NavLink className="flex justify-center w-24 sm:w-32 md:w-36" to="/">
+        <img src={spaloonlogo} alt="Spaloon Logo" />
       </NavLink>
 
-      {/* -------------------------- Pages in NavBar -------------- */}
-      <NavLink to="/" style={{ color: "white" }}>
-        <h1 className="font-bold text-xl">Home</h1>
-      </NavLink>
-      <NavLink to="BookNow" style={{ color: "white" }}>
-        <h1 className="font-bold text-xl w-full md:w-auto ">Book Now</h1>
-      </NavLink>
-      <NavLink to="Menu" style={{ color: "white" }}>
-        <h1 className="font-bold text-xl">Menu</h1>
-      </NavLink>
-      <NavLink to="Locations" style={{ color: "white" }}>
-        <h1 className="font-bold text-xl">Locations</h1>
-      </NavLink>
+      {/* Pages */}
+      <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
+        <NavLink
+          to="/"
+          className="text-white font-bold text-base sm:text-lg md:text-xl"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="BookNow"
+          className="text-white font-bold text-base sm:text-lg md:text-xl"
+        >
+          Book Now
+        </NavLink>
+        <NavLink
+          to="Menu"
+          className="text-white font-bold text-base sm:text-lg md:text-xl"
+        >
+          Menu
+        </NavLink>
+        <NavLink
+          to="Locations"
+          className="text-white font-bold text-base sm:text-lg md:text-xl"
+        >
+          Locations
+        </NavLink>
+      </div>
     </div>
   );
 };

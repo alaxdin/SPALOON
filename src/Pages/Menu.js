@@ -6,8 +6,13 @@ const Menu = () => {
     //   <h1 className="text-4xl">Coming Soon </h1>
     // </div>
 
-    <div class="w-full h-screen">
-      <iframe src={SpaloonMenu} class="w-full h-full" frameborder="0"></iframe>
+    <div className="w-full h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px]">
+      <iframe
+        src={SpaloonMenu}
+        className="w-full h-full"
+        frameBorder={0}
+        title="Spaloon Menu"
+      ></iframe>
     </div>
   );
 };

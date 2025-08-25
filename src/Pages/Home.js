@@ -16,24 +16,48 @@ const Home = () => {
     <div>
       <div>
         {/* -------------------- Image ---------------- */}
-        <div className="w-[100%] lg:w-[100%] h-full flex justify-center  ">
+        <div
+          className=" w-full 
+  h-auto 
+  flex flex-col items-center 
+  sm:flex-row sm:justify-between 
+  lg:justify-center  "
+        >
           <img
-            className="w-[100%] lg:w-[100%] h-[700px] object-cover "
+            className=" w-full 
+  h-[300px] 
+  sm:h-[400px] 
+  md:h-[500px] 
+  lg:h-[700px] 
+  object-cover "
             src={BWbarber}
             alt="Barber"
           />
 
           <div
-            className=" flex justify-center item-center flex-col lg:w-[100%] lg:h-[700px] md:w-[50px] md:h-10 border-black  absolute  text-white p-10 gap-40"
+            className="  flex flex-col items-center justify-center 
+  w-full h-auto 
+  md:w-[80%] md:h-[400px] 
+  lg:w-full lg:h-[700px] 
+  border border-black 
+  absolute text-white 
+  p-6 md:p-10 
+  gap-6 md:gap-10"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.521)",
             }}
           >
-            <h1 className=" text-5xl text-center w-[100%] lg:w-[100%]">
+            <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center w-full">
               KEEP THE LOOK SPALOON
             </h1>
 
-            <h2 className=" text-center text-3xl leading-relaxed  lg:w-[100%] lg:h-[700px]">
+            <h2
+              className="  text-center 
+  text-lg sm:text-xl md:text-2xl lg:text-3xl 
+  leading-relaxed 
+  w-full 
+  h-auto lg:h-[700px]"
+            >
               At Spaloon, we believe grooming is an art. Our space is designed
               for comfort, <br />
               relaxation, and refinement, ensuring a high-end experience that
@@ -47,11 +71,19 @@ const Home = () => {
 
         {/* ------------------------------------------ Down Part ---------------- */}
 
-        <div className="flex flex-col gap-10 p-8  ">
+        <div
+          className="flex flex-col 
+  gap-4 sm:gap-6 md:gap-8 lg:gap-10 
+  p-4 sm:p-6 md:p-8  "
+        >
           {/* ---------------------------------- Button ----------------- */}
-          <div className="md:w-[100%] lg:w-[100%] h-full flex justify-center items-center  ">
+          <div className="  w-full  h-auto md:h-full flex justify-center items-center ">
             <Link
-              className="  w-52 h-20 bg-black border-r-8 border-t-8 text-white flex justify-center items-center text-2xl font-medium"
+              className="  w-32 h-16 sm:w-40 sm:h-16 md:w-52 md:h-20 
+  bg-black border-r-8 border-t-8 text-white 
+  flex justify-center items-center 
+  text-lg sm:text-xl md:text-2xl 
+  font-medium"
               to="/BookNow"
             >
               Book Now
@@ -60,15 +92,36 @@ const Home = () => {
 
           {/* ------------------------------ Second part ---------------------- */}
 
-          <div className=" w-full h-full flex  ">
+          <div
+            className=" w-full 
+  h-auto md:h-full 
+  flex flex-col md:flex-row "
+          >
             {/* -------- image ----- */}
-            <div className="w-full h-full p-10 ">
-              <img className=" w-full h-full object-contain" src={Barber} />
+            <div
+              className="  w-full 
+  h-auto 
+  p-4 sm:p-6 md:p-8 lg:p-10"
+            >
+              <img
+                className="   w-full 
+  h-auto 
+  sm:h-48 md:h-64 lg:h-full 
+  object-contain"
+                src={Barber}
+              />
             </div>
             {/* ---------- Test --------- */}
-            <div className="w-full h-100 flex justify-center items-start flex-col gap-16  ">
-              <h1 className="text-2xl font-bold">About Us</h1>
-              <h2 className="text-xl font-medium">
+            <div
+              className="  w-full 
+  h-auto 
+  flex flex-col items-start justify-center 
+  gap-4 sm:gap-6 md:gap-10 lg:gap-16  "
+            >
+              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">
+                About Us
+              </h1>
+              <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
                 Spaloon is a premium grooming destination designed for the
                 modern gentleman who values sophistication, quality, and
                 self-care. With a focus on precision cuts, expert beard
@@ -80,30 +133,64 @@ const Home = () => {
           </div>
 
           {/* ------------------------Theird Part ---------------------------- */}
-          <div className="w-full h-full flex">
-            <div className="w-full h-100 flex justify-start items-center flex-col text-center gap-2  ">
-              <img className="w-20" src={tenoclock} />
-              <h2 className="font-bold ">Hours</h2>
-              <h2 className="font-bold text-xl">10:00 AM - 10:00 PM</h2>
-              <h3 className="font-medium text-xl">In All Branches</h3>
+          <div
+            className="  w-full 
+  h-auto md:h-full 
+  flex flex-col md:flex-row"
+          >
+            <div className="w-full h-auto flex flex-col items-center justify-start text-center gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+              <img
+                className="w-16 sm:w-20 md:w-24 lg:w-28"
+                src={tenoclock}
+                alt="Clock Icon"
+              />
+              <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                Hours
+              </h2>
+              <h2 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl">
+                10:00 AM - 10:00 PM
+              </h2>
+              <h3 className="font-medium text-sm sm:text-base md:text-lg lg:text-xl">
+                In All Branches
+              </h3>
             </div>
-            <div className="w-full h-100 flex justify-start items-center flex-col text-center gap-2  ">
-              <img className="w-20  " src={phone} />
-              <h2 className="font-bold text-2xl">Contact Us</h2>
-              <h3 className="font-bold text-xl">
+
+            <div className="w-full h-auto flex flex-col items-center justify-start text-center gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+              <img
+                className="w-16 sm:w-20 md:w-24 lg:w-28"
+                src={phone}
+                alt="Phone Icon"
+              />
+              <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                Contact Us
+              </h2>
+              <h3 className="font-medium text-sm sm:text-base md:text-lg lg:text-xl">
                 Ready for a fresh look? Get in touch with our team at Spaloon to
                 book your appointment today.
               </h3>
             </div>
-            <div className="w-full h-100 flex justify-center items-center flex-col text-center gap-3  ">
-              <img className="w-20 " src={location} />
-              <h2 className="font-bold text-2xl ">Location</h2>
-              <h3 className="font-bold text-xl">
+
+            <div className="w-full h-auto flex flex-col items-center justify-center text-center gap-2 sm:gap-3 md:gap-4 lg:gap-5">
+              <img
+                className="w-16 sm:w-20 md:w-24 lg:w-28"
+                src={location}
+                alt="Location Icon"
+              />
+              <h2 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                Location
+              </h2>
+              <h3 className="font-medium text-sm sm:text-base md:text-lg lg:text-xl">
                 Kuwait City - Fahaid Al-Salam Street
               </h3>
-              <h3 className="font-bold text-xl">Al-Bida - The Palms Hotel</h3>
-              <h3 className="font-bold text-xl">Bneid Al-Gar - Meslah West</h3>
-              <h3 className="font-bold text-xl">Mangaf - Ray Hotel</h3>
+              <h3 className="font-medium text-sm sm:text-base md:text-lg lg:text-xl">
+                Al-Bida - The Palms Hotel
+              </h3>
+              <h3 className="font-medium text-sm sm:text-base md:text-lg lg:text-xl">
+                Bneid Al-Gar - Meslah West
+              </h3>
+              <h3 className="font-medium text-sm sm:text-base md:text-lg lg:text-xl">
+                Mangaf - Ray Hotel
+              </h3>
             </div>
           </div>
         </div>

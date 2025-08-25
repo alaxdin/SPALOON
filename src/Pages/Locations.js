@@ -7,74 +7,86 @@ import Mangaf from "../assets/SpaloonImages/Mangaf.png";
 
 const Locations = () => {
   return (
-    <div>
-      <div className="w-full h-60 flex justify-center items-center ">
-        <h1 className="font-bold text-3xl">Choose the branch nearest to you</h1>
+    <div className="w-full flex flex-col items-center">
+      {/* Header */}
+      <div className="w-full h-60 flex justify-center items-center">
+        <h1 className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
+          Choose the branch nearest to you
+        </h1>
       </div>
-      {/* -------------------- Location ------------------------------------------- */}
-      <div className="w-full h-full flex justify-center  ">
-        {/* ---------------------  Kuwait City Location  */}
-        <div className="  w-[100%] h-[100%]  flex justify-center items-center flex-col gap-8 flex-wrap wrap">
+
+      {/* Locations Grid */}
+      <div className="w-full flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8 lg:gap-10">
+        {/* Kuwait City */}
+        <div className="flex flex-col items-center gap-2 sm:gap-4">
           <a
             href="https://maps.app.goo.gl/JmJr8xHE3uDQ11h57"
             target="_blank"
             rel="noopener noreferrer"
-            to="/Salon"
           >
             <img
-              className="w-[300px] h-[400px] rounded-3xl object-cover"
+              className="rounded-3xl w-48 sm:w-56 md:w-60 lg:w-72 h-64 sm:h-72 md:h-80 lg:h-96 object-cover"
               src={City}
               alt="Kuwait City"
             />
           </a>
-          <h2 className="font-bold text-xl">Kuwait City</h2>
+          <h2 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl">
+            Kuwait City
+          </h2>
         </div>
-        {/* -------------------------- Palms Location ---------------- */}
-        <div className="  w-[100%] h-[100%]  flex justify-center items-center flex-col gap-8">
+
+        {/* Al-Bida */}
+        <div className="flex flex-col items-center gap-2 sm:gap-4">
           <a
             href="https://maps.app.goo.gl/tjNnHwwaqkhy7ZVt6"
             target="_blank"
             rel="noopener noreferrer"
-            to="/Salon"
           >
             <img
-              className="w-[300px] h-[400px] rounded-3xl object-cover"
+              className="rounded-3xl w-48 sm:w-56 md:w-60 lg:w-72 h-64 sm:h-72 md:h-80 lg:h-96 object-cover"
               src={Palms}
+              alt="Al-Bida"
             />
           </a>
-          <h2 className="font-bold text-xl">Al-Bida</h2>
+          <h2 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl">
+            Al-Bida
+          </h2>
         </div>
 
-        {/* --------------------------- Bneid al Gar Location */}
-        <div className="  w-[100%] h-[100%]  flex justify-center items-center flex-col gap-8">
+        {/* Bneid Al-Gar */}
+        <div className="flex flex-col items-center gap-2 sm:gap-4">
           <a
             href="https://maps.app.goo.gl/pp1YNo2s6C1BfQ839"
             target="_blank"
             rel="noopener noreferrer"
-            to="/Salon"
           >
             <img
-              className="w-[300px] h-[400px] rounded-3xl object-cover"
+              className="rounded-3xl w-48 sm:w-56 md:w-60 lg:w-72 h-64 sm:h-72 md:h-80 lg:h-96 object-cover"
               src={Gar}
+              alt="Bneid Al-Gar"
             />
           </a>
-          <h2 className="font-bold text-xl">Bneid Al-Gar</h2>
+          <h2 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl">
+            Bneid Al-Gar
+          </h2>
         </div>
 
-        {/* --------------------------- Mangaf Location  */}
-        <div className="  w-[100%] h-[100%]  flex justify-center items-center flex-col gap-8">
+        {/* Mangaf */}
+        <div className="flex flex-col items-center gap-2 sm:gap-4">
           <a
             href="https://maps.app.goo.gl/7wiTw1diaCGAaUcX8"
             target="_blank"
             rel="noopener noreferrer"
-            to="/Salon"
           >
             <img
-              className="w-[300px] h-[400px] rounded-3xl object-cover"
+              className="rounded-3xl w-48 sm:w-56 md:w-60 lg:w-72 h-64 sm:h-72 md:h-80 lg:h-96 object-cover"
               src={Mangaf}
+              alt="Mangaf"
             />
           </a>
-          <h2 className="font-bold text-xl">Mangaf</h2>
+          <h2 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl">
+            Mangaf
+          </h2>
         </div>
       </div>
     </div>
