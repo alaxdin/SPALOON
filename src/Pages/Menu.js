@@ -6,14 +6,15 @@ const Menu = () => {
     //   <h1 className="text-4xl">Coming Soon </h1>
     // </div>
 
-    <div className="w-full h-[420px] sm:h-[520px] md:h-[640px] lg:h-[800px] xl:h-[900px]">
-      <iframe
-        src={SpaloonMenu}
-        className="w-full h-full"
-        style={{ zoom: "0.9" }}
-        frameBorder={0}
-        title="Spaloon Menu"
-      ></iframe>
+    <div className="w-full h-screen flex justify-center items-center">
+      <a
+        href={SpaloonMenu}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white bg-black px-6 py-3 rounded-lg font-bold"
+      >
+        View Menu
+      </a>
     </div>
   );
 };
