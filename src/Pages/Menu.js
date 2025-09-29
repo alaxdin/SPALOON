@@ -10,6 +10,7 @@ const Menu = () => {
       <iframe
         src={SpaloonMenu}
         className="w-full h-full"
+        style={{ zoom: "0.9" }}
         frameBorder={0}
         title="Spaloon Menu"
       ></iframe>
