@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SpaloonWeb/static/css/main.ec6bb569.css",
-    "main.js": "/SpaloonWeb/static/js/main.30652cac.js",
+    "main.css": "/SpaloonWeb/static/css/main.f9d43182.css",
+    "main.js": "/SpaloonWeb/static/js/main.ad4f01f0.js",
     "static/js/453.bd4a5502.chunk.js": "/SpaloonWeb/static/js/453.bd4a5502.chunk.js",
     "static/media/SpaloonMenu.pdf": "/SpaloonWeb/static/media/SpaloonMenu.f1f8ce00d57a813b47de.pdf",
     "static/media/Gar.png": "/SpaloonWeb/static/media/Gar.f933e08a5851eceff239.png",
@@ -15,12 +15,12 @@
     "static/media/tenoclock.svg": "/SpaloonWeb/static/media/tenoclock.95a7efb0fba22c5508e8070c9c0de5df.svg",
     "static/media/location.svg": "/SpaloonWeb/static/media/location.66cc1d4db3e767d4c2d37ee3ba11767f.svg",
     "index.html": "/SpaloonWeb/index.html",
-    "main.ec6bb569.css.map": "/SpaloonWeb/static/css/main.ec6bb569.css.map",
-    "main.30652cac.js.map": "/SpaloonWeb/static/js/main.30652cac.js.map",
+    "main.f9d43182.css.map": "/SpaloonWeb/static/css/main.f9d43182.css.map",
+    "main.ad4f01f0.js.map": "/SpaloonWeb/static/js/main.ad4f01f0.js.map",
     "453.bd4a5502.chunk.js.map": "/SpaloonWeb/static/js/453.bd4a5502.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec6bb569.css",
-    "static/js/main.30652cac.js"
+    "static/css/main.f9d43182.css",
+    "static/js/main.ad4f01f0.js"
   ]
 }
