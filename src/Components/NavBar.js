@@ -5,7 +5,7 @@ import spaloonlogo from "../assets/SpaloonImages/spaloonlogo.png";
 const NavBar = () => {
   return (
     // ----------------- Style NavBar -----------------
-    <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between bg-gray-600 p-4 gap-4 sm:gap-6 md:gap-100">
+    <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between bg-gray-700 p-4 gap-4 sm:gap-6 md:gap-100">
       {/* Logo */}
       <NavLink className="flex justify-center w-24 sm:w-32 md:w-36" to="/">
         <img src={spaloonlogo} alt="Spaloon Logo" />
