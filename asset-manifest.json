@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/SPALOON/static/css/main.f9d43182.css",
-    "main.js": "/SPALOON/static/js/main.ade4bf3b.js",
-    "static/js/453.bd4a5502.chunk.js": "/SPALOON/static/js/453.bd4a5502.chunk.js",
-    "static/media/SpaloonMenu.pdf": "/SPALOON/static/media/SpaloonMenu.f1f8ce00d57a813b47de.pdf",
-    "static/media/Gar.png": "/SPALOON/static/media/Gar.f933e08a5851eceff239.png",
-    "static/media/Mangaf.png": "/SPALOON/static/media/Mangaf.9d47299a20ea61e18e59.png",
-    "static/media/Palms.png": "/SPALOON/static/media/Palms.a757d02d689fadd3ac2d.png",
-    "static/media/City.png": "/SPALOON/static/media/City.7197b170260925776655.png",
-    "static/media/Barber.png": "/SPALOON/static/media/Barber.7b50aa0ffbc4aed792b0.png",
-    "static/media/BWbarber.png": "/SPALOON/static/media/BWbarber.c67b933bcf5177427d71.png",
-    "static/media/spaloonlogo.png": "/SPALOON/static/media/spaloonlogo.6a69f68106755b3f67c4.png",
-    "static/media/phone.svg": "/SPALOON/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
-    "static/media/tenoclock.svg": "/SPALOON/static/media/tenoclock.95a7efb0fba22c5508e8070c9c0de5df.svg",
-    "static/media/location.svg": "/SPALOON/static/media/location.66cc1d4db3e767d4c2d37ee3ba11767f.svg",
-    "index.html": "/SPALOON/index.html",
-    "main.f9d43182.css.map": "/SPALOON/static/css/main.f9d43182.css.map",
-    "main.ade4bf3b.js.map": "/SPALOON/static/js/main.ade4bf3b.js.map",
-    "453.bd4a5502.chunk.js.map": "/SPALOON/static/js/453.bd4a5502.chunk.js.map"
+    "main.css": "/static/css/main.f9d43182.css",
+    "main.js": "/static/js/main.9ca78aec.js",
+    "static/js/453.bd4a5502.chunk.js": "/static/js/453.bd4a5502.chunk.js",
+    "static/media/SpaloonMenu.pdf": "/static/media/SpaloonMenu.f1f8ce00d57a813b47de.pdf",
+    "static/media/Gar.png": "/static/media/Gar.f933e08a5851eceff239.png",
+    "static/media/Mangaf.png": "/static/media/Mangaf.9d47299a20ea61e18e59.png",
+    "static/media/Palms.png": "/static/media/Palms.a757d02d689fadd3ac2d.png",
+    "static/media/City.png": "/static/media/City.7197b170260925776655.png",
+    "static/media/Barber.png": "/static/media/Barber.7b50aa0ffbc4aed792b0.png",
+    "static/media/BWbarber.png": "/static/media/BWbarber.c67b933bcf5177427d71.png",
+    "static/media/spaloonlogo.png": "/static/media/spaloonlogo.6a69f68106755b3f67c4.png",
+    "static/media/phone.svg": "/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
+    "static/media/tenoclock.svg": "/static/media/tenoclock.95a7efb0fba22c5508e8070c9c0de5df.svg",
+    "static/media/location.svg": "/static/media/location.66cc1d4db3e767d4c2d37ee3ba11767f.svg",
+    "index.html": "/index.html",
+    "main.f9d43182.css.map": "/static/css/main.f9d43182.css.map",
+    "main.9ca78aec.js.map": "/static/js/main.9ca78aec.js.map",
+    "453.bd4a5502.chunk.js.map": "/static/js/453.bd4a5502.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9d43182.css",
-    "static/js/main.ade4bf3b.js"
+    "static/js/main.9ca78aec.js"
   ]
 }
